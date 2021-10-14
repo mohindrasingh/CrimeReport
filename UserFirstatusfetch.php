@@ -13,7 +13,7 @@ error_reporting(0); //ignore error report;
 $sn   = "localhost"; //server name;
 $un   = "root"; //user name;
 $pwd  = "";  //password;
-$db   = "crimereport"; //database name;
+$db   = "crimereports"; //database name;
 $conn = mysqli_connect( $sn, $un, $pwd, $db); //connection with mysql database;
 $i = $_POST['id']; //declare variable;
 

@@ -37,7 +37,7 @@ error_reporting(0); //ignore error reorting message;
 $sn= "localhost"; //server name;
 $un= "root"; //user name;
 $pwd= ""; //password;
-$db= "crimereport"; //database name;
+$db= "crimereports"; //database name;
 $conn= mysqli_connect( $sn, $un, $pwd, $db); //connection with database;
 $un= $_POST['user']; //declare variables;
 $adr=$_POST['adrs'];
@@ -47,7 +47,7 @@ $ca= $_POST['area'];
 $ps= $_POST['pst'];
 $tm= $_POST['time'];
 $dt= $_POST['date'];
-$dc= $_POST['desc'];
+$dc= $_POST['desc']; 
  
  //check connection for data inserting.
 	if($conn){
@@ -58,7 +58,7 @@ $dc= $_POST['desc'];
 $sn= "localhost"; //server name;
 $un= "root"; //user name;
 $pwd= ""; //password;
-$db= "crimereport"; //database name;    
+$db= "crimereports"; //database name;    
 $conn= mysqli_connect( $sn, $un, $pwd, $db); //connection with database;
 $mo= $_POST['num'];
    

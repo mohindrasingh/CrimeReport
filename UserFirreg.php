@@ -38,19 +38,17 @@ body {
 
 .s1{
 	color:black;
-	font-size: 5.5rem;
+	font-size: 3rem;
 	font-family: times new roman;
 	font-style: italic;
 	
-}/*use for heading 2*/
+}/*use for heading 3*/
 
 .s2{
-	text-align: center;
 	color: solid black;
-	font-size: 3.5rem;
+	font-size: 3rem;
 	font-family: times new roman;
 	font-style: italic;
-	padding-top: 1.5rem;
 	
 }/*heading 1*/
 
@@ -82,12 +80,11 @@ body {
 
 </style>
 <body>
-	<h2 class="s1">"CRIME REPORTING"</h2>
+	<h3 class="s1">"CRIME REPORTING"</h3>
 
-    <h1 class="s2">"FIR REGISTRATION HERE"</h1>
-
-    <table class="table" align="center" cellpadding="20rem" cellspacing="9rem" border="2rem">	
+  <table class="table" align="center" cellpadding="20rem" cellspacing="9rem" border="2rem">	
 	<form action="UserFIRFatch.php" method= "POST">
+    <tr><caption class="s2"> FIR REGISTRATION</caption></tr>
 	<tr><td>Name:</td>
     <td><input type="text" name="user" value="" required="" autocomplete="off">
     </td></tr>
@@ -112,7 +109,7 @@ body {
 	<br></td></tr>
 
 	<tr><td>FIR Time:</td>
-	<td><input type="time" name="time" value="" required="">
+	<td><input type="time" name="time" value="" require="">
 	<br></td></tr>
 
 	<tr><td>FIR Date:</td>

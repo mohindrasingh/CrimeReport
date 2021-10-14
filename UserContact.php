@@ -11,7 +11,7 @@ error_reporting(0); //ignoring error message;
 $sn="localhost"; //server name;
 $un="root"; //user name;
 $pwd=""; //password;
-$db="crimereport"; //database name;
+$db="crimereports"; //database name;
 $conn= mysqli_connect($sn, $un, $pwd, $db); //connectivity with mysql;
 
 //checking connection
@@ -74,7 +74,7 @@ else{
       ?>
 </table>
 <br>
-<center><a href="Home.php">Back to home</a></center>
+<center><a href="Home.php" style="color: white">Back to home</a></center>
 </body>
 </head>
 </html>

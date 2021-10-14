@@ -1,24 +1,23 @@
 <?php
 session_start();
 
-// error_reporting(0);// ignore error message;
-$sn= "localhost"; //server name;
-$un= "root"; //user name;
-$pwd= ""; //password;
-$db= "crimereport"; // database name;
-mysql_connect($sn, $un, $pwd); //connect with mysql database;
-mysql_select_db($db); //select database;
+error_reporting(0);// ignore error message;
+$sn = "localhost"; //server name;
+$un = "root"; //user name;
+$pwd = ""; //password;
+$db = "crimereports"; // database name;
+$conn = mysqli_connect($sn, $un, $pwd, $db); //connect with mysql database;
 
 if(isset($_POST['mobile'])){
   
-  $admob= $_POST['mobile'];
+  $admob = $_POST['mobile'];
   $psd=$_POST['password'];
 
   $sql="select *from adminreg where Mobile='".$admob."' AND Password= '".$psd."' limit 1;";
 
-  $result=mysql_query($sql);
+  $result= mysqli_query($conn, $sql);
 
-  if(mysql_num_rows($result)==1){
+  if(mysqli_num_rows($result)==1){
 
     header('location: Adminhome.php');   
   }

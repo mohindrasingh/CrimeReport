@@ -4,7 +4,7 @@ error_reporting(0);
 $sn="localhost";
 $un="root";
 $pwd="";
-$db="crimereport";
+$db="crimereports";
 $id= $_POST['updt'];
 $st= $_POST['upt'];
 $conn= mysqli_connect($sn, $un, $pwd, $db);
@@ -18,7 +18,7 @@ $conn= mysqli_connect($sn, $un, $pwd, $db);
 $sn="localhost";
 $un="root";
 $pwd="";
-$db="crimereport";
+$db="crimereports";
 $dt= $_POST['dlt'];
 $conn= mysqli_connect($sn, $un, $pwd, $db);
    	if($conn){
