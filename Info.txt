@@ -1,0 +1,4 @@
+Local host- Xampp
+Back End use- MySql
+--------------------------
+Database Name - crimereports
