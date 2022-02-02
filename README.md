@@ -3,4 +3,12 @@ This project created while I was in my UG. I created web application using php t
 
 # Requirements
 Software  : Sublime Editor3
+
 Server    : Wampp or Xampp
+
+Languages : HTML2, CSS3, PHP
+
+Backend   : MySQL
+
+#Author
+#Mohindra Singh
