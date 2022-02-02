@@ -1,2 +1,2 @@
 # CrimeReport
-This project is used in my graduation time. User can Register online FIR, check FIR status. Admin can see records, update, delete existing records. 
+This project created while I was in my UG. I created web application using php technology and html, css language. In this project I give FIR(first investigetion report), Check FIR status etc. In this web application there are two domains "Users" and "Admin". User can Register online FIR, check FIR status, knowing emergency contact, read news. Admin can perform CRUD operation on existing records, change FIR status, Add emergency contacts.
